@@ -1,3 +1,64 @@
 body{
     background-color: aquamarine;
 }
+div{
+    border: black solid 1px;
+    margin-top: 100px;
+}
+
+#nav ul{
+    /*remote dot before */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    border: red solid;
+}
+#nav li{
+    text-align: center;
+    border-bottom: green solid 1px;
+    display: inline;
+}
+#nav li a{
+    color: orange;
+    margin: 10px;
+    text-decoration: none;
+}
+#nav li a:hover{
+    background-color: black;
+    font-style: italic;
+}
+#animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: fistAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#animation2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: secondAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes  fistAnimation {
+    from{background-color: red}
+    to{background-color: white}
+
+}
+@keyframes secondAnimation {
+    0% {background-color:red}
+    20% {background-color: green}
+    40% {background-color: blueviolet}
+    50% {background-color: aqua}
+    80% {background-color: crimson}
+    100% {background-color: black}
+
+}
+h1{
+    margin-left: 100px;
+
+}
